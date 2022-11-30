@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun simpleObserver() {
-        val list = listOf<String>("a", "b", "c")
+        val list = listOf("a", "b", "c")
 
         val observable = Observable.fromIterable(list)
 
