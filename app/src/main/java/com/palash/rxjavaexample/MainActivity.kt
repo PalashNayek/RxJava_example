@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         btnLoad.clicks().subscribe {
             implementNetworkCalls()
         }
-
+//////////////////////////////////////////////////
         //simpleObserver()
         //createObservable()
     }
